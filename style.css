@@ -1,17 +1,17 @@
-.topnav {
-    background-color: #ad1a1a;
+nav {
+    background-color: #250909;
     overflow: hidden;
     font-family: 'Share Tech', sans-serif;
     width: 100vw;
     max-width: 100vw;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
-    z-index: 1;
+    /* z-index: 1; */
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  nav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -21,14 +21,14 @@
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  nav a:hover {
     background-color: rgb(251, 114, 0);
     color: black;
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #5e111c;
+  nav a.active {
+    background-color: #2c080d;
     color: white;
   }
 
@@ -44,6 +44,7 @@ body {
     height: 100%;
     width: 100%;
     overflow: auto;
+    background-color: black;
 }
 
 main {
@@ -57,6 +58,7 @@ main {
 h1, h2, h3 {
     color: rgba(137, 7, 4, 0.8);
     text-align: center;
+    font-family: 'Share Tech', sans-serif;
 }
 
 .topContainer{
@@ -67,7 +69,6 @@ h1, h2, h3 {
     margin: 0;
     padding: 0;
     color: white;
-    margin-top: 47px;
     z-index: -1;
     background-size: cover;
     margin-bottom: 100px;
@@ -121,14 +122,25 @@ h1, h2, h3 {
 
 p {
     font-size: 20px;
+    color: white;
+    font-family: 'Share Tech', sans-serif;
 }
 
 #first {
     padding: 20px;
-    border-right: 1px dotted black;
-    border-left: 1px dotted black;
 }
 
 li {
+    font-family: 'Share Tech', sans-serif;
     font-size: 20px;
+    color: white
+}
+
+#dotted-line {
+    
+    
+    border-top: black;
+    border-style: dashed;
+    border-width: .4px;
+    
 }
